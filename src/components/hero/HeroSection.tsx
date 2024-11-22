@@ -79,7 +79,7 @@ export default function HeroSection() {
                 </button>
 
                 <a
-                  href="/Tariq_Naser.pdf"
+                  href="/Shakib.pdf"
                   download
                   className="px-8 py-3 bg-transparent border-2 border-indigo-500 text-indigo-500 font-bold rounded-full hover:bg-indigo-500 hover:text-white transition-all duration-300 text-center transform hover:-translate-y-1"
                   aria-label="Download CV"
