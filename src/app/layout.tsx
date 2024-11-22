@@ -85,7 +85,7 @@ export default function RootLayout({
           href="https://cdnjs.cloudflare.com"
           crossOrigin="anonymous"
         />
-        <title>Tariq Amarneh - Web Developer & AI Enthusiast</title>
+        <title>Shakib Howlader - ML Expert</title>
       </head>
       <body className="bg-gray-900 text-white flex flex-col min-h-screen antialiased font-sans">
         <SpeedInsights />
