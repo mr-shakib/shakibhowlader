@@ -25,8 +25,8 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'Tariq Amarneh - Web Developer & AI Enthusiast',
-  description: 'Portfolio of a web developer specializing in Next.js, Python, and Generative AI',
+  title: 'Shakib Howlader - Designer, Developer & ML Expert',
+  description: 'Portfolio of a designer, developer, Python, and ML Expert',
   manifest: '/manifest.json',
   robots: {
     index: true,
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
-    title: 'Tariq',
+    title: 'Shakib',
   },
   icons: {
     icon: [

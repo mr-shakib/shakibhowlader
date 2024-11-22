@@ -8,7 +8,7 @@ const JourneySection: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-8 md:px-16 flex flex-col items-center">
         <ScrollAnimationWrapper>
           <h2 className="text-4xl sm:text-5xl font-bold mb-16 text-center neon-text">
-            My Professional Journey
+            My Academic Journey
           </h2>
         </ScrollAnimationWrapper>
         <ScrollAnimationWrapper>

@@ -14,47 +14,47 @@ interface TimelineEvent {
 
 const timelineEvents: TimelineEvent[] = [
   {
-    date:"2024-10",
-    title: "SDE I (L4) at Amazon",
-    description: "Working as a Software Development Engineer at Amazon, building and optimizing scalable applications that impact millions of users globally.",
-    icon: "/journey_logo/amazon.svg"
+    date:"2022-01 - Present",
+    title: "Daffodil International University",
+    description: "Currently a university student at Daffodil International University, pursuing a degree in Computer Science and Engineering (CSE) since 2022. Passionate about Machine Learning, Competitive Programming, UI/UX designing, and software development, with a strong drive for innovation and problem-solving in technology.",
+    icon: "/journey_logo/ml.svg"
   },
   {
-    date: "2024-07",
-    title: "Software engineer at ProgressSoft",
-    description: "Associate at ProgressSoft as Java Software Engineer, working on web application projects using Spring Boot.",
-    icon: "/journey_logo/progressoft.svg"
+    date: "2018-2020",
+    title: "Birshrestha Noor Mohammad Public College",
+    description: "Science student from 2018 to 2020, with a strong academic foundation and a passion for learning. Developed analytical and problem-solving skills during college, fostering a keen interest in technology and design.",
+    icon: "/journey_logo/uiux.svg"
   },
   {
-    date: "2024-03",
-    title: "Microsoft Certified",
-    description: "Achieved the Microsoft Certified: Azure AI fundamentals certification, demonstrating proficiency in AI and machine learning concepts.",
-    icon: "/journey_logo/azure-ai-fundamentals.svg"
+    date: "2016-2018",
+    title: "Shibchar Nandakumar Institution",
+    description: "Completed SSC at 2018, achieving a GPA of 5, showcasing academic excellence and a strong foundation in education.",
+    icon: "/journey_logo/school.svg"
   },
   {
-    date: "2023-09",
-    title: "Internship at PwC",
-    description: "Interned at PwC as Generative AI Engineer, working on AI projects and developing web applications.",
-    icon: "/journey_logo/pwc.svg"
+    date: "2015-2016",
+    title: "Shibchar Nandakumar Institution",
+    description: "Completed JSC in 2016, followed by SSC from 2016 to 2018 with a GPA of 5, reflecting consistent academic excellence.",
+    icon: "/journey_logo/school.svg"
   },
-  {
-    date: "2022-07",
-    title: "Internship at Arab Bank",
-    description: "Gained practical experience working with data and analytics, and building machine learning models.",
-    icon: "/journey_logo/arabbank.svg"
-  },
-  {
-    date: "2021-05",
-    title: "Google Professional Certified",
-    description: "Achieved the Google Professional Data Analytics Certificate, mastering the foundations of data analytics, data visualization, and data quality.",
-    icon: "https://images.credly.com/size/340x340/images/7abb071f-772a-46fe-a899-5a11699a62dc/GCC_badge_DA_1000x1000.png"
-  },
-  {
-    date: "2019-09",
-    title: "University",
-    description: "Embarked on a transformative journey in Data Science and Artificial Intelligence at Princess Sumaya University for Technology, culminating in a successful graduation in 2023 with a commendable 3.23 GPA.",
-    icon: "/journey_logo/psut.svg"
-  },
+  // {
+  //   date: "2022-07",
+  //   title: "Internship at Arab Bank",
+  //   description: "Gained practical experience working with data and analytics, and building machine learning models.",
+  //   icon: "/journey_logo/arabbank.svg"
+  // },
+  // {
+  //   date: "2021-05",
+  //   title: "Google Professional Certified",
+  //   description: "Achieved the Google Professional Data Analytics Certificate, mastering the foundations of data analytics, data visualization, and data quality.",
+  //   icon: "https://images.credly.com/size/340x340/images/7abb071f-772a-46fe-a899-5a11699a62dc/GCC_badge_DA_1000x1000.png"
+  // },
+  // {
+  //   date: "2019-09",
+  //   title: "University",
+  //   description: "Embarked on a transformative journey in Data Science and Artificial Intelligence at Princess Sumaya University for Technology, culminating in a successful graduation in 2023 with a commendable 3.23 GPA.",
+  //   icon: "/journey_logo/psut.svg"
+  // },
 ]
 
 const TimelineEvent: React.FC<{ event: TimelineEvent; isActive: boolean; isLeft: boolean; index: number }> = ({ 

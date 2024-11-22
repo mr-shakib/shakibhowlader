@@ -13,14 +13,14 @@ const Footer: React.FC = () => {
         <div className="flex flex-col items-center space-y-4">
           <div className="text-center">
             <p className="text-sm">
-              &copy; {new Date().getFullYear()} Tariq Amarneh. All rights reserved.
+              &copy; {new Date().getFullYear()} Shakib Howlader. All rights reserved.
             </p>
           </div>
           <div className="flex space-x-4">
-            <a href="https://github.com/tariqamarneh" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a href="https://github.com/mr-shakib" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <FaGithub className="text-2xl hover:text-gray-400 transition-colors" />
             </a>
-            <a href="https://linkedin.com/in/tariq-naser" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/shakib-howlader/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <FaLinkedin className="text-2xl hover:text-gray-400 transition-colors" />
             </a>
           </div>

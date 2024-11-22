@@ -11,7 +11,7 @@ import { useTheme } from '@/components/general/GradientBackground'
 type Skill = {
   name: string;
   level: string;
-  category: 'frontend' | 'backend' | 'database' | 'devops';
+  category: 'frontend' | 'backend' | 'ml' | 'database' |'devops';
   icon: string;
   description?: string;
   yearStarted?: number;
@@ -24,15 +24,15 @@ const skills: Skill[] = [
     category: "backend",
     icon: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg",
     description: "Enterprise application development, Spring ecosystem",
-    yearStarted: 2024
+    yearStarted: 2022
   },
   {
-    name: "Spring Boot",
+    name: "C/C++",
     level: 'Intermediate',
     category: "backend",
-    icon: "/skills_logo/spring-boot-logo.svg",
-    description: "Enterprise application development, Spring ecosystem",
-    yearStarted: 2024
+    icon: "/skills_logo/cpp_logo.svg",
+    description: "",
+    yearStarted: 2022
   },
   {
     name: "Python",
@@ -40,7 +40,7 @@ const skills: Skill[] = [
     category: "backend",
     icon: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg",
     description: "Web application development, machine learning",
-    yearStarted: 2020
+    yearStarted: 2022
   },
   {
     name: "FastAPI",
@@ -48,47 +48,47 @@ const skills: Skill[] = [
     category: "backend",
     icon: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/fastapi-colored.svg",
     description: "Backend web application, clean code",
-    yearStarted: 2022
+    yearStarted: 2024
   },
   {
-    name: "MongoDB",
-    level: 'Expert',
+    name: "SQLite",
+    level: 'Intermediate',
     category: "database",
     icon: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg",
     description: "",
-    yearStarted: 2021
+    yearStarted: 2024
   },
   {
-    name: "Postgres",
+    name: "Pytorch",
     level: 'Expert',
-    category: "database",
-    icon: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg",
+    category: "ml",
+    icon: "/skills_logo/pytorch.svg",
     description: "",
     yearStarted: 2023
   },
   {
     name: "MySQL",
-    level: 'Expert',
+    level: 'Intermediate',
     category: "database",
     icon: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg",
     description: "",
     yearStarted: 2023
   },
   {
-    name: "Next.js",
+    name: "Tensorflow",
     level: 'Intermediate',
-    category: "frontend",
-    icon: "/skills_logo/nextjs_icon_dark.svg",
-    description: "Simple frontend application development, clean code",
-    yearStarted: 2023
+    category: "ml",
+    icon: "/skills_logo/tensorflow-layout.svg",
+    description: "",
+    yearStarted: 2024
   },
   {
-    name: "Tailwind CSS",
-    level: 'Intermediate',
-    category: "frontend",
-    icon: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg",
-    description: "",
-    yearStarted: 2023
+    name: "Numpy",
+    level: 'Expert',
+    category: "ml",
+    icon: "",
+    description: "/skills_logo/numpy.svg",
+    yearStarted: 2024
   },
   {
     name: "Git",
@@ -96,24 +96,24 @@ const skills: Skill[] = [
     category: "devops",
     icon: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg",
     description: "",
-    yearStarted: 2019
+    yearStarted: 2022
   },
   {
-    name: "Docker",
-    level: 'Expert',
-    category: "devops",
-    icon: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg",
+    name: "Matplotlib",
+    level: 'Intermediate',
+    category: "ml",
+    icon: "/skills_logo/matplotlib.svg",
     description: "",
-    yearStarted: 2019
-  },
-  {
-    name: "Azure",
-    level: 'Expert',
-    category: "devops",
-    icon: "/skills_logo/azure-icon.svg",
-    description: "Web service, container registry, CI/CD",
     yearStarted: 2023
   },
+  // {
+  //   name: "Azure",
+  //   level: 'Expert',
+  //   category: "devops",
+  //   icon: "/skills_logo/azure-icon.svg",
+  //   description: "Web service, container registry, CI/CD",
+  //   yearStarted: 2023
+  // },
 ];
 
 const SkillCard: React.FC<{
@@ -166,7 +166,7 @@ const SkillCard: React.FC<{
 };
 
 const SkillsSection: React.FC = () => {
-  type Category = 'all' | 'frontend' | 'backend' | 'database' | 'devops';
+  type Category = 'all' | 'frontend' | 'backend' | 'ml' | 'database' |'devops';
   const [activeCategory, setActiveCategory] = useState<Category>('all');
   const [viewMode, setViewMode] = useState<'grid' | 'stats'>('grid');
   const [searchQuery, setSearchQuery] = useState('');

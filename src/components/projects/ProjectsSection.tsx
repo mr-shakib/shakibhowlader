@@ -18,33 +18,33 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Hogwarts artifacts",
-    description: "Back-end application designed to demonstrate typical use cases and best practices in Spring Boot development",
-    technologies: ["Java", "Spring Boot", "CI/CD", "Azure"],
-    imageUrl: "/images/hogwarts.png",
-    linkUrl: "https://github.com/tariqamarneh/hogwarts-artifacts-online"
+    title: "Prism",
+    description: "Prism is a dynamic social media app, developed using Dart, Flutter, and Firebase, designed to connect people, foster creativity, and provide a vibrant platform for sharing and engagement.",
+    technologies: ["Dart", "Flutter", "Firebase", "Git"],
+    imageUrl: "/images/prism.png",
+    linkUrl: "https://github.com/mr-shakib/Prism---A-Social-Media-App"
   },
   {
-    title: "DocViz",
-    description: "A web app that summarizes documents and extract key phrases and insights using the power of AI.",
-    technologies: ["Python", "Next.js", "FastAPI", "MongoDB"],
-    imageUrl: "/images/docviz.png",
-    linkUrl: "https://docviz.online"
+    title: "EduTrack",
+    description: "Student Management System: A comprehensive solution designed to streamline and manage all aspects of student records, attendance, performance tracking, and administrative tasks efficiently.",
+    technologies: ["JAVA", "SQL"],
+    imageUrl: "/images/student.png",
+    linkUrl: "https://github.com/mr-shakib/Student-Management-System"
   },
   {
-    title: "AiRefMe",
-    description: "A web app with three chatbots, normal chat, chat with your document, and weather API chatbot",
-    technologies: ["Python", "selenium", "FastAPI", "Langchain", "JavaScript"],
-    imageUrl: "/images/airefme.png",
-    linkUrl: "https://github.com/tariqamarneh/AI_Reference_Application"
+    title: "EasyBlood",
+    description: "Easyblood: A user-friendly blood donation app designed to connect donors and recipients seamlessly. Facilitates quick access to life-saving blood, promoting community support and healthcare accessibility.",
+    technologies: ["JAVA", "Firebase"],
+    imageUrl: "/images/easyblood.png",
+    linkUrl: "https://github.com/mr-shakib/EasyBloodApp"
   },
-  {
-    title: "AccesibilityHelper",
-    description: "Application that will add a little a button to any website you visit, that will perform any action you want, eather by writing it or by voice command.",
-    technologies: ["Python", "MongoDB", "FastAPI", "Langchain"],
-    imageUrl: "/images/accesHelp.png",
-    linkUrl: "https://github.com/tariqamarneh/AccesibilityHelper"
-  },
+  // {
+  //   title: "AccesibilityHelper",
+  //   description: "Application that will add a little a button to any website you visit, that will perform any action you want, eather by writing it or by voice command.",
+  //   technologies: ["Python", "MongoDB", "FastAPI", "Langchain"],
+  //   imageUrl: "/images/accesHelp.png",
+  //   linkUrl: "https://github.com/tariqamarneh/AccesibilityHelper"
+  // },
 ]
 
 const ProjectCard: React.FC<{ project: Project; index: number }> = ({ project, index }) => {

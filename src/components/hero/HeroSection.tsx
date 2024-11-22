@@ -41,8 +41,8 @@ export default function HeroSection() {
                 transition={{ duration: 0.5, ease: "easeOut" }}
               >
                 <Image
-                  src="/images/my_photo.png"
-                  alt="Tariq Amarneh"
+                  src="/images/profile.png"
+                  alt="Shakib Howlader"
                   width={250}
                   height={250}
                   className="rounded-full border-4 border-gray-800 shadow-lg transition-transform duration-300 group-hover:scale-105"
@@ -55,16 +55,16 @@ export default function HeroSection() {
           <div className="text-left max-w-2xl">
             <ScrollAnimationWrapper animation="fade-in">
               <h1 className="text-5xl md:text-7xl font-bold mb-4 gradient-text">
-                <TypingAnimation text='Tariq Amarneh' />
+                <TypingAnimation text='Shakib Howlader' />
               </h1>
-              <div className={`text-lg ${isDark ? 'text-gray-400':'text-gray-600'} mb-4`}>
-                <TypingAnimation text='Based in Jordan' />
-              </div>
+              {/* <div className={`text-lg ${isDark ? 'text-gray-400':'text-gray-600'} mb-4`}>
+                <TypingAnimation text='ML Expert' />
+              </div> */}
             </ScrollAnimationWrapper>
 
             <ScrollAnimationWrapper animation="fade-up">
               <div className={`text-xl md:text-2xl mb-6 ${isDark ? 'text-blue-300':'text-blue-500'}`}>
-                <TypingAnimation text='SDE at Amazon' />
+                <TypingAnimation text='ML Expert' />
               </div>
             </ScrollAnimationWrapper>
 
@@ -89,7 +89,7 @@ export default function HeroSection() {
 
                 <div className="flex space-x-6 items-center justify-center">
                   <a
-                    href="https://github.com/tariqamarneh"
+                    href="https://github.com/mr-shakib"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`text-indigo-500 ${isDark ? 'hover:text-white':'hover:text-black'} transition-colors duration-300 transform hover:-translate-y-1`}
@@ -100,7 +100,7 @@ export default function HeroSection() {
                     </svg>
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/tariq-naser/"
+                    href="https://www.linkedin.com/in/shakib-howlader/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`text-indigo-500 ${isDark ? 'hover:text-white':'hover:text-black'} transition-colors duration-300 transform hover:-translate-y-1`}

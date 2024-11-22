@@ -25,12 +25,12 @@ const GradientBackground = dynamic(() => import('@/components/general/GradientBa
 })
 
 export const metadata: Metadata = {
-  title: 'Tariq Amarneh - Web Developer & AI Enthusiast',
-  description: 'Portfolio of a web developer specializing in Next.js, Python, and Generative AI',
-  keywords: ['web developer', 'Next.js', 'Python', 'AI', 'portfolio', 'Tariq Amarneh'],
-  authors: [{ name: 'Tariq Amarneh' }],
+  title: 'Shakib Howlader - Designer, Developer & ML Expert',
+  description: 'Portfolio of a designer, developer, Python, and ML Expert',
+  keywords: ['web developer', 'Next.js', 'Python', 'AI', 'portfolio', 'Shakib Howlader'],
+  authors: [{ name: 'Shakib Howlader' }],
   alternates: {
-    canonical: 'https://tariqamarneh.vercer.app',
+    canonical: 'https://shakibportfolio.vercel.app/',
   },
 }
 
@@ -44,15 +44,15 @@ export default function Home() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Person',
-            name: 'Tariq Amarneh',
-            url: 'https://tariqamarneh.vercer.app',
+            name: 'Shakib Howlader',
+            url: 'https://shakibportfolio.vercel.app/',
             jobTitle: 'Web Developer',
             description: 'Web developer specializing in Next.js, Python, and Generative AI',
             knowsAbout: ['Web Development', 'Next.js', 'Python', 'Artificial Intelligence'],
-            image: 'https://tariqamarneh.vercer.app/images/my_photo.png',
+            image: 'https://shakibportfolio.vercel.app//images/my_photo.png',
             sameAs: [
-              'https://github.com/tariqamarneh',
-              'https://linkedin.com/in/tariq-naser',
+              'https://github.com/mr-shakib',
+              'https://www.linkedin.com/in/shakib-howlader/',
             ],
           })
         }}
