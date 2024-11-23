@@ -56,7 +56,7 @@ const skills: Skill[] = [
     category: "database",
     icon: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg",
     description: "",
-    yearStarted: 2024
+    yearStarted: 2023
   },
   {
     name: "Pytorch",
@@ -80,7 +80,7 @@ const skills: Skill[] = [
     category: "ml",
     icon: "/skills_logo/tensorflow-layout.svg",
     description: "",
-    yearStarted: 2024
+    yearStarted: 2023
   },
   {
     name: "Numpy",
@@ -88,7 +88,7 @@ const skills: Skill[] = [
     category: "ml",
     icon: "",
     description: "/skills_logo/numpy.svg",
-    yearStarted: 2024
+    yearStarted: 2023
   },
   {
     name: "Git",
